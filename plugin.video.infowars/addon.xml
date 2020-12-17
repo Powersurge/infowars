@@ -13,8 +13,8 @@
 		<provides>video</provides>
 	</extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Videos from Infowars.com Including live daily shows</summary>
-    <description lang="en_GB">Videos from Infowars.com Including live daily shows</description>
+    <summary lang="en_GB">Videos from Banned.Video Including live daily shows</summary>
+    <description lang="en_GB">Videos from Banned.Video Including live daily shows</description>
 	<news>
       Version 2.1.6
       - Fixed broken live streams in menu

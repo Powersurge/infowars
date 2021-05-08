@@ -58,8 +58,8 @@ IW_plugin_id= "plugin.video.infowars"
 IW_database_file=os.path.join(xbmc.translatePath("special://database"),'infowars.db')
 IW_debugging= False
 AJSIcon = "https://imgur.com/YYl3GFe.png"
-DKSIcon = "https://static.infowars.com/images/DKS-logo.png"
-DKSFanart = "https://static.infowars.com/images/DKS-bg.jpg"
+DKSIcon = "https://assets.infowarsmedia.com/images/15084c28-71d4-456f-b587-7b66f73c7ede-large.png"
+DKSFanart = "https://assets.infowarsmedia.com/images/203cf9b2-f811-4802-bfb4-441b2e864a7c-large.png"
 WarRoomIcon = "https://static.infowars.com/images/war-room-logo-white.png"
 WarRoomFanart = "https://static.infowars.com/images/war-room-studio.jpg"
 FPIcon = "https://i.imgur.com/Nc3LAtC.png"
@@ -365,7 +365,7 @@ def ToTop():
 def Menu_MainMenu(): #The Main Menu
     WhereAmI('@ the Main Menu')
     IW_addon.add_directory({'mode': 'PlayURL','url':'https://freespeech.akamaized.net/hls/live/2016712/live2/playlist.m3u8'},{'title':  cFL_('The Alex Jones Show - (Loops After Airing)','lime')},is_folder=False,img=AJSIcon,fanart=IW_artFanart)
-    IW_addon.add_directory({'mode': 'PlayURL','url':'https://freespeech.akamaized.net/hls/live/2016873/live3/playlist.m3u8'},{'title':  cFL_('The David Knight Show - (Loops After Airing)','orange')},is_folder=False,img=DKSIcon,fanart=DKSFanart)
+    IW_addon.add_directory({'mode': 'PlayURL','url':'https://freespeech.akamaized.net/hls/live/2016873/live3/playlist.m3u8'},{'title':  cFL_('The American Journal with Harrison Smith - (Loops After Airing)','orange')},is_folder=False,img=DKSIcon,fanart=DKSFanart)
     IW_addon.add_directory({'mode': 'PlayURL','url':'https://freespeech.akamaized.net/hls/live/2016873/live4/playlist.m3u8'},{'title':  cFL_('War Room with Owen Shroyer - (Loops After Airing)','purple')},is_folder=False,img=WarRoomIcon,fanart=WarRoomFanart)
     #IW_addon.add_directory({'mode': 'PlayURL','url':''},{'title':  cFL_('American Countdown - (Loops After Airing)','red')},is_folder=False,img=IWODIcon,fanart=IWODFanart)
     IW_addon.add_directory({'mode': 'PlayURL','url':'https://freespeech.akamaized.net/hls/live/2016712/live1/playlist.m3u8'},{'title':  cFL_('Live Shows & Special Events','green')},is_folder=False,img=IWLiveSEIcon,fanart=IWLiveSEFanart)
